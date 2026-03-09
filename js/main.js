@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('I LOVE YOU').split('')
+    const titles = ('I AM SORRY AND I LOVE YOU').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
@@ -15,7 +15,7 @@ onload = () => {
       }
     }
 
-    appendTitle();
+    appendTitle()
 
     clearTimeout(c);
   }, 1000);
